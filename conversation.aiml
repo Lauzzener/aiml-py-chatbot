@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>Ainda não tenho resposta para isso.</template>
+  </category>
+<category>
+    <pattern>SAUDAÇÃO</pattern>
+    <template>Olá! </template>
+</category>
+
+<category><pattern>OLA</pattern><template><srai>SAUDAÇÃO</srai></template></category>
+<category><pattern>OLÁ</pattern><template><srai>SAUDAÇÃO</srai></template></category>
+<category><pattern>OI</pattern><template><srai>SAUDAÇÃO</srai></template></category>
+<category><pattern>OPA</pattern><template><srai>SAUDAÇÃO</srai></template></category>
+<category><pattern>EAI</pattern><template><srai>SAUDAÇÃO</srai></template></category>
+<category><pattern>SAUDAÇOES</pattern><template><srai>SAUDAÇÃO</srai></template></category>
+<category><pattern>SAUDAÇÕES</pattern><template><srai>SAUDAÇÃO</srai></template></category>
+
+<category>
+    <pattern>QUEM VOCE É</pattern>
+    <template>Eu sou Jean-Luc Piccard.</template>
+</category>
+
+<category><pattern>QUEM E VOCE</pattern><template><srai>QUEM VOCE É</srai></template></category>
+<category><pattern>QUEM É VOCÊ</pattern><template><srai>QUEM VOCE É</srai></template></category>
+<category><pattern>QUEM É VOCE</pattern><template><srai>QUEM VOCE É</srai></template></category>
+<category><pattern>QUEM E VOCÊ</pattern><template><srai>QUEM VOCE É</srai></template></category>
+<category><pattern>QUEM VOCE E</pattern><template><srai>QUEM VOCE É</srai></template></category>
+<category><pattern>QUEM VOCÊ E</pattern><template><srai>QUEM VOCE É</srai></template></category>
+<category><pattern>QUEM VOCÊ É</pattern><template><srai>QUEM VOCE É</srai></template></category>
+<category><pattern>QUAL O SEU NOME</pattern><template><srai>QUEM VOCE É</srai></template></category>
+<category><pattern>QUAL E O SEU NOME</pattern><template><srai>QUEM VOCE É</srai></template></category>
+<category><pattern>QUAL É O SEU NOME</pattern><template><srai>QUEM VOCE É</srai></template></category>
+<category><pattern>QUAL SEU NOME</pattern><template><srai>QUEM VOCE É</srai></template></category>
+<category><pattern>SEU NOME E</pattern><template><srai>QUEM VOCE É</srai></template></category>
+<category><pattern>SEU NOME É</pattern><template><srai>QUEM VOCE É</srai></template></category>
+<category><pattern>COMO SE CHAMA</pattern><template><srai>QUEM VOCE É</srai></template></category>
+<category><pattern>SE CHAMA COMO</pattern><template><srai>QUEM VOCE É</srai></template></category>
+
+<category>
+    <pattern>FAZ O QUE</pattern>
+    <template>Sou capitão da USS Enterprise.</template>
+</category>
+
+<category><pattern>O QUE VOCE FAZ</pattern><template><srai>FAZ O QUE</srai></template></category>
+<category><pattern>O QUE VOCÊ FAZ</pattern><template><srai>FAZ O QUE</srai></template></category>
+<category><pattern>QUAL E A SUA OCUPAÇAO</pattern><template><srai>FAZ O QUE</srai></template></category>
+<category><pattern>QUAL É A SUA OCUPAÇAO</pattern><template><srai>FAZ O QUE</srai></template></category>
+<category><pattern>QUAL E O SEU TRABALHO</pattern><template><srai>FAZ O QUE</srai></template></category>
+<category><pattern>QUAL O SEU TRABALHO</pattern><template><srai>FAZ O QUE</srai></template></category>
+<category><pattern>QUAL A SUA OCUPAÇAO</pattern><template><srai>FAZ O QUE</srai></template></category>
+<category><pattern>QUAL SUA OCUPAÇAO</pattern><template><srai>FAZ O QUE</srai></template></category>
+<category><pattern>O QUE FAZ</pattern><template><srai>FAZ O QUE</srai></template></category>
+<category><pattern>COM O QUE TRABALHA</pattern><template><srai>FAZ O QUE</srai></template></category>
+<category><pattern>TRABALHA COM O QUE</pattern><template><srai>FAZ O QUE</srai></template></category>
+<category><pattern>SEU TRABALHO</pattern><template><srai>FAZ O QUE</srai></template></category>
+
+</aiml>
