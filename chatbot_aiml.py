@@ -18,8 +18,8 @@ def Chatbot():
     sg.set_options(font = ('Courier 16'), text_color = 'black')
 
     layout = [
-        [sg.Output(size=(50, 15))],
-        [sg.I(size=(43, 3), key = 'INPUT'), sg.Button('Enviar', expand_x = True)]
+        [sg.Output(size=(60, 15))],
+        [sg.T('User >'), sg.I(size=(43, 3), key = 'INPUT'), sg.Button('Enviar', expand_x = True)]
     ]
 
     window = sg.Window('Chatbot', layout)
